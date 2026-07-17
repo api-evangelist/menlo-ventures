@@ -1,0 +1,84 @@
+aid: menlo-ventures
+name: Menlo Ventures
+description: >-
+  Menlo Ventures is an early-stage venture capital firm founded in 1976 and
+  headquartered in Menlo Park and San Francisco, California, that invests in
+  transformative technology companies across the full early lifecycle. Its
+  strategy spans "the Three Stages of Early" — Inception (validating early ideas,
+  including via the Inception Fund and the Anthology Fund AI accelerator built
+  with Anthropic), Venture (Series A/B), and Inflection (early growth). Menlo
+  invests across artificial intelligence, bio and healthcare, consumer,
+  cybersecurity, defense, fintech, infrastructure, robotics and hardware, SaaS,
+  and supply chain and automation, primarily in North America. Over roughly five
+  decades the firm reports backing companies that produced 85+ public companies
+  and 170+ mergers and acquisitions, with a portfolio that includes Anthropic,
+  Uber, Roku, Chime, Carta, Benchling, Pinecone, Netlify, and Warby Parker. In
+  2026 Menlo announced $3 billion in fresh capital, the largest raise in the
+  firm's history, and reports $7.6B+ in assets under management. Its ethos is
+  "when we invest, we're invested" — active, hands-on support beyond capital.
+x-type: venture-capital
+x-category: Venture Capital
+image: https://menlovc.com/wp-content/uploads/menlo-logo.png
+tags:
+  - Venture Capital
+  - Early Stage
+  - Series A
+  - Artificial Intelligence
+  - Fintech
+  - Cybersecurity
+  - Infrastructure
+  - Healthcare
+  - SaaS
+  - North America
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://menlovc.com/
+  - type: Portfolio
+    url: https://menlovc.com/portfolio/
+  - type: Portfolio
+    url: portfolio/menlo-ventures-portfolio.yml
+  - type: Team
+    url: https://menlovc.com/team/
+  - type: Team
+    url: team/menlo-ventures-team.yml
+  - type: InvestmentThesis
+    url: https://menlovc.com/about/
+  - type: Blog
+    url: https://menlovc.com/perspective/
+  - type: Contact
+    url: https://menlovc.com/contact/
+  - type: Jobs
+    url: https://menlovc.com/careers/
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/menlo-ventures
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/menlo-ventures
+  - type: Twitter
+    url: https://twitter.com/MenloVentures
+  - type: Features
+    data:
+      - 'Stage: Early stage — Inception, Venture (Series A/B), Inflection (early growth)'
+      - 'Sectors: AI, bio + healthcare, consumer, cybersecurity, defense, fintech, infrastructure, robotics + hardware, SaaS, supply chain + automation'
+      - 'Geography: North America'
+      - 'AUM: $7.6B+ (self-reported)'
+      - 'New capital: $3B raised in 2026 (largest in firm history)'
+      - 'Track record: 85+ public companies, 170+ mergers & acquisitions (self-reported)'
+      - 'Founded: 1976'
+      - 'HQ: Menlo Park & San Francisco, California'
+      - 'Programs: Inception Fund, Anthology Fund (AI accelerator with Anthropic)'
+    sources:
+      - https://menlovc.com/
+      - https://menlovc.com/about/
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Menlo Ventures
+    url: https://menlovc.com/
