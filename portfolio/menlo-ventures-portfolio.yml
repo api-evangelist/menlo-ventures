@@ -3,9 +3,9 @@ method: searched
 source: https://menlovc.com/portfolio/
 summary:
   portfolio_total: 215
-  in_network: 79
-  api_providers: 46
-  missing: 136
+  in_network: 215
+  api_providers: 60
+  missing: 0
   stubs_created: 0
 companies:
 - name: Chime
@@ -75,16 +75,18 @@ companies:
 - name: 3par
   status: acquired
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 3par
+  slug: 3par
+  matched_by: name-slug
 - name: 6 River Systems
   url: https://6river.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 6-river-systems
+  slug: 6river
+  matched_by: domain
 - name: Abacus
   url: https://getabacus.com
   status: active
@@ -97,16 +99,18 @@ companies:
   url: https://accordance.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: accordance-ai
+  slug: accordance
+  matched_by: domain
 - name: Aeroscout
   url: https://aeroscout.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aeroscout
+  slug: aeroscout
+  matched_by: domain
 - name: Affinity
   url: https://affinity.co
   status: active
@@ -119,9 +123,10 @@ companies:
   url: https://agency.inc
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: agency-ai
+  slug: agency
+  matched_by: domain
 - name: Airbase
   url: https://airbase.com
   status: active
@@ -134,16 +139,18 @@ companies:
   url: https://aisera.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aisera
+  slug: aisera
+  matched_by: domain
 - name: Alcove
   url: https://alcove.co
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alcove
+  slug: alcove
+  matched_by: domain
 - name: Alloy
   url: https://alloy.ai
   status: active
@@ -156,9 +163,10 @@ companies:
   url: https://altadaily.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alta
+  slug: alta
+  matched_by: domain
 - name: Ansible
   url: https://ansible.com
   status: active
@@ -179,30 +187,34 @@ companies:
   url: https://anycart.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: anycart
+  slug: anycart
+  matched_by: domain
 - name: Appdome
   url: https://appdome.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: appdome
+  slug: appdome
+  matched_by: domain
 - name: Arc
   url: https://arcboats.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arc
+  slug: arc
+  matched_by: name-slug
 - name: Arch
   url: https://archlabs.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: arch
+  in_network: true
+  is_api_provider: true
+  slug: arch
+  matched_by: domain
 - name: Armadin
   url: https://armadin.com
   status: active
@@ -210,41 +222,46 @@ companies:
   slug: armadin
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Assemble Labs
   url: https://assemblelabs.ai
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: assemble-labs
+  slug: assemble-labs
+  matched_by: domain
 - name: Assort Health
   url: https://assorthealth.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: assort-health
+  slug: assorthealth
+  matched_by: domain
 - name: Astrix
   url: https://astrix.security
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: astrix
+  slug: astrix
+  matched_by: domain
 - name: Aurascape
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aurascape
+  slug: aurascape
+  matched_by: name-slug
 - name: Aurora Therapeutics
   url: https://auroratherapeutics.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aurora-therapeutics
+  slug: aurora-therapeutics
+  matched_by: domain
 - name: Avi Networks
   url: https://avinetworks.com
   status: active
@@ -252,7 +269,7 @@ companies:
   slug: avi-networks
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Axiom
   url: https://axiommath.ai
   status: active
@@ -281,9 +298,10 @@ companies:
   url: https://bitsight.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bitsight
+  slug: bitsight
+  matched_by: domain
 - name: Bluevine
   url: https://bluevine.com
   status: active
@@ -296,9 +314,10 @@ companies:
   url: https://brainjar.games
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brain-jar-games
+  slug: brain-jar-games
+  matched_by: domain
 - name: Bread
   url: https://breadfinancial.com
   status: ipo
@@ -310,9 +329,10 @@ companies:
 - name: Brellium
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: brellium
+  in_network: true
+  is_api_provider: true
+  slug: brellium
+  matched_by: name-slug
 - name: Canvas
   url: https://canvas.build
   status: active
@@ -325,15 +345,17 @@ companies:
   url: https://cartwheelcare.org
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cartwheel
+  slug: cartwheel
+  matched_by: name-slug
 - name: Cavium
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cavium
+  slug: cavium
+  matched_by: name-slug
 - name: Cequence Security
   url: https://cequence.ai
   status: active
@@ -346,9 +368,10 @@ companies:
   url: https://chaidiscovery.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chai-discovery
+  slug: chai-discovery
+  matched_by: domain
 - name: Clarifai
   url: https://clarifai.com
   status: active
@@ -369,16 +392,18 @@ companies:
   url: https://clearlabs.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clear-labs
+  slug: clearlabs
+  matched_by: domain
 - name: Clearvector
   url: https://clearvector.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clearvector
+  slug: clearvector
+  matched_by: domain
 - name: Clerk
   url: https://clerk.com
   status: active
@@ -391,147 +416,168 @@ companies:
   url: https://cloudtrucks.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cloudtrucks
+  slug: cloudtrucks
+  matched_by: domain
 - name: Codesignal
   url: https://codesignal.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: codesignal
+  in_network: true
+  is_api_provider: true
+  slug: codesignal
+  matched_by: domain
 - name: Cofactor Genomics
   url: https://cofactorgenomics.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cofactor-genomics
+  slug: cofactor-genomics
+  matched_by: domain
 - name: Collegevine
   url: https://collegevine.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: collegevine
+  slug: collegevine
+  matched_by: domain
 - name: Converzai
   url: https://converzai.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: converzai
+  slug: converzai
+  matched_by: domain
 - name: Credit Sesame
   url: https://creditsesame.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: credit-sesame
+  slug: credit-sesame
+  matched_by: domain
 - name: Crogl
   url: https://crogl.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crogl
+  slug: crogl
+  matched_by: domain
 - name: Dataxu
   status: acquired
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dataxu
+  slug: dataxu
+  matched_by: name-slug
 - name: Daze
   url: https://daze.chat
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: daze
+  slug: daze
+  matched_by: domain
 - name: Decent
   url: https://decent.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: decent
+  slug: decent
+  matched_by: domain
 - name: Dedrone
   url: https://dedrone.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dedrone
+  slug: dedrone
+  matched_by: domain
 - name: Delfi Diagnostics
   url: https://delfidiagnostics.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: delfi-diagnostics
+  slug: delfi-diagnostics
+  matched_by: domain
 - name: Delphi
   url: https://delphi.ai
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: delphi
+  in_network: true
+  is_api_provider: true
+  slug: delphi
+  matched_by: domain
 - name: Dropcam
   status: acquired
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dropcam
+  slug: dropcam
+  matched_by: name-slug
 - name: Earli
   url: https://earli.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: earli
+  slug: earli
+  matched_by: domain
 - name: Edge Delta
   url: https://edgedelta.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: edge-delta
+  in_network: true
+  is_api_provider: true
+  slug: edge-delta
+  matched_by: domain
 - name: Eero
   url: https://eero.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eero
+  slug: eero
+  matched_by: domain
 - name: Eleos Health
   url: https://eleos.health
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eleos-health
+  slug: eleos-health
+  matched_by: domain
 - name: Enable
   url: https://enable.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: enable
+  slug: enable
+  matched_by: name-slug
 - name: Encoded Therapeutics
   url: https://encoded.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: encoded-therapeutics
+  slug: encoded-therapeutics
+  matched_by: domain
 - name: Endgame
   url: https://endgame.io
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: endgame
+  in_network: true
+  is_api_provider: true
+  slug: end-game
+  matched_by: domain
 - name: Envoy
   url: https://envoy.com
   status: active
@@ -544,17 +590,18 @@ companies:
   url: https://getepic.com
   status: active
   source: https://menlovc.com/portfolio/
-  slug: epic
+  slug: epic-creations
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Epiodyne
   url: https://epiodyne.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: epiodyne
+  slug: epiodyne
+  matched_by: domain
 - name: Eppo
   url: https://geteppo.com
   status: active
@@ -567,7 +614,7 @@ companies:
   url: https://eve.legal
   status: active
   source: https://menlovc.com/portfolio/
-  slug: eve-legal
+  slug: eve
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -599,9 +646,10 @@ companies:
   url: https://fintool.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fintool
+  slug: fintool
+  matched_by: name-slug
 - name: Firehydrant
   url: https://firehydrant.com
   status: active
@@ -622,30 +670,33 @@ companies:
   url: https://fivestars.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fivestars
+  slug: fivestars
+  matched_by: domain
 - name: Fleetsmith
   status: acquired
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fleetsmith
+  slug: fleetsmith
+  matched_by: name-slug
 - name: Function Health
   url: https://functionhealth.com
   status: active
   source: https://menlovc.com/portfolio/
   slug: function-health
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Genesis Therapeutics
   url: https://genesis.ml
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: genesis-therapeutics
+  slug: genesis-therapeutics
+  matched_by: domain
 - name: Getaround
   url: https://getaround.com
   status: active
@@ -658,7 +709,7 @@ companies:
   url: https://gilead.com
   status: active
   source: https://menlovc.com/portfolio/
-  slug: gilead-sciences
+  slug: forty-seven-2
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -666,23 +717,26 @@ companies:
   url: https://gimletlabs.ai
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gimlet-labs
+  slug: gimlet-labs
+  matched_by: domain
 - name: Good Job Games
   url: https://goodjobgames.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: good-job-games
+  slug: good-job-games
+  matched_by: domain
 - name: Goodfire
   url: https://goodfire.ai
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: goodfire
+  slug: goodfire
+  matched_by: domain
 - name: Graphite
   url: https://graphite.dev
   status: active
@@ -695,9 +749,10 @@ companies:
   url: https://growtherapy.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grow-therapy
+  slug: grow-therapy
+  matched_by: domain
 - name: H1
   url: https://h1.co
   status: active
@@ -718,9 +773,10 @@ companies:
   url: https://theheaviside.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: heaviside-industries
+  slug: heaviside-industries
+  matched_by: domain
 - name: Heidi
   url: https://heidihealth.com
   status: active
@@ -733,9 +789,10 @@ companies:
   url: https://higgsfield.ai
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: higgsfield
+  in_network: true
+  is_api_provider: true
+  slug: higgsfield
+  matched_by: domain
 - name: Homelight
   url: https://homelight.com
   status: active
@@ -747,23 +804,26 @@ companies:
 - name: Hotmail
   status: acquired
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hotmail
+  slug: hotmail
+  matched_by: name-slug
 - name: Hover
   url: https://hover.to
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hover
+  slug: hover
+  matched_by: domain
 - name: Immersive Labs
   url: https://immersivelabs.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: immersive-labs
+  slug: immersive-labs
+  matched_by: domain
 - name: Indio
   url: https://useindio.com
   status: active
@@ -775,43 +835,49 @@ companies:
 - name: Ironport
   status: acquired
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ironport
+  slug: ironport
+  matched_by: name-slug
 - name: Juliahub
   url: https://juliahub.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: juliahub
+  slug: juliahub
+  matched_by: domain
 - name: Jump
   status: acquired
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jump
+  slug: jump
+  matched_by: name-slug
 - name: Kinetic
   url: https://kinetic.auto
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kinetic
+  slug: kinetic
+  matched_by: domain
 - name: Knoetic
   url: https://knoetic.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: knoetic
+  slug: knoetic
+  matched_by: domain
 - name: Koala Health
   url: https://koala.health
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: koala-health
+  slug: koala-health
+  matched_by: domain
 - name: Legora
   url: https://legora.com
   status: active
@@ -824,9 +890,10 @@ companies:
   url: https://levelpath.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: levelpath
+  slug: levelpath
+  matched_by: domain
 - name: Lindy
   url: https://lindy.ai
   status: active
@@ -847,37 +914,42 @@ companies:
   url: https://mz.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: machine-zone
+  slug: machine-zone
+  matched_by: domain
 - name: Manifest Law
   url: https://manifestlaw.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: manifest-law
+  slug: manifest-law
+  matched_by: domain
 - name: Matik
   url: https://matik.io
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: matik
+  slug: matik
+  matched_by: domain
 - name: Mealpal
   url: https://mealpal.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mealpal
+  slug: mealpal
+  matched_by: domain
 - name: Medra
   url: https://medra.ai
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: medra
+  slug: medra
+  matched_by: domain
 - name: Mercor
   url: https://mercor.com
   status: active
@@ -890,9 +962,10 @@ companies:
   url: https://mimic.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mimic
+  slug: mimic
+  matched_by: domain
 - name: Modal
   url: https://modal.com
   status: active
@@ -905,30 +978,34 @@ companies:
   url: https://monarchmoney.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: monarch
+  slug: monarch
+  matched_by: name-slug
 - name: Nationgraph
   url: https://nationgraph.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: nationgraph
+  in_network: true
+  is_api_provider: true
+  slug: nationgraph
+  matched_by: domain
 - name: Ndea
   url: https://ndea.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ndea
+  slug: ndea
+  matched_by: domain
 - name: Nectar Social
   url: https://nectarsocial.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nectar-social
+  slug: nectar-social
+  matched_by: domain
 - name: Neon
   url: https://neon.tech
   status: active
@@ -949,44 +1026,50 @@ companies:
   url: https://newlantern.ai
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: new-lantern
+  slug: new-lantern
+  matched_by: domain
 - name: Nlight
   url: https://nlight.net
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nlight
+  slug: nlight
+  matched_by: domain
 - name: Nourish
   url: https://nourish.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nourish
+  slug: nourish
+  matched_by: domain
 - name: Numeric
   url: https://numeric.io
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: numeric
+  slug: numeric
+  matched_by: domain
 - name: Observable
   url: https://observablehq.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: observable
+  slug: observable
+  matched_by: domain
 - name: Observe Ai
   url: https://observe.ai
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: observe-ai
+  slug: observe-ai
+  matched_by: domain
 - name: Obsidian Security
   url: https://obsidiansecurity.com
   status: active
@@ -999,9 +1082,10 @@ companies:
   url: https://offerfit.ai
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: offerfit
+  slug: offerfit
+  matched_by: domain
 - name: Openevidence
   url: https://openevidence.com
   status: active
@@ -1038,16 +1122,18 @@ companies:
   url: https://ophelia.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ophelia
+  slug: ophelia
+  matched_by: domain
 - name: Opna Bio
   url: https://opnabio.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: opna-bio
+  slug: opna-bio
+  matched_by: domain
 - name: Orb
   url: https://withorb.com
   status: active
@@ -1060,9 +1146,10 @@ companies:
   url: https://parade.ai
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: parade
+  in_network: true
+  is_api_provider: true
+  slug: parade
+  matched_by: domain
 - name: Particle Health
   url: https://particlehealth.com
   status: active
@@ -1075,42 +1162,48 @@ companies:
   url: https://peregrine.io
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: peregrine
+  slug: peregrine
+  matched_by: domain
 - name: Periscope
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: periscope
+  slug: periscope
+  matched_by: name-slug
 - name: Photomath
   url: https://photomath.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: photomath
+  slug: photomath
+  matched_by: domain
 - name: Pillpack
   url: https://pillpack.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pillpack
+  slug: pillpack
+  matched_by: domain
 - name: Pliant Therapeutics
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pliant-therapeutics
+  slug: pliant-therapeutics
+  matched_by: name-slug
 - name: Pluribus Networks
   url: https://pluribusnetworks.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pluribus-networks
+  slug: pluribus-networks
+  matched_by: domain
 - name: Polly
   url: https://polly.io
   status: active
@@ -1123,9 +1216,10 @@ companies:
   url: https://poshmark.com
   status: ipo
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: poshmark
+  slug: poshmark
+  matched_by: domain
 - name: Prime Intellect
   url: https://primeintellect.ai
   status: active
@@ -1138,9 +1232,10 @@ companies:
   url: https://prodigaltech.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prodigal
+  slug: prodigal
+  matched_by: domain
 - name: Qualia
   url: https://qualia.com
   status: active
@@ -1153,21 +1248,23 @@ companies:
   url: https://qualifiedhealthai.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qualified-health
+  slug: qualified-health
+  matched_by: domain
 - name: Qualio
   url: https://qualio.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: qualio
+  in_network: true
+  is_api_provider: true
+  slug: qualio
+  matched_by: domain
 - name: Recursion
   url: https://recursion.com
   status: ipo
   source: https://menlovc.com/portfolio/
-  slug: exscientia
+  slug: recursion
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -1175,36 +1272,41 @@ companies:
   url: https://relational.ai
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: relationalai
+  slug: relationalai
+  matched_by: domain
 - name: Relyance Ai
   url: https://relyance.ai
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: relyance-ai
+  slug: relyance-ai
+  matched_by: domain
 - name: Rf Surgical
   status: acquired
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rf-surgical
+  slug: rf-surgical
+  matched_by: name-slug
 - name: Righthand Robotics
   url: https://righthandrobotics.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: righthand-robotics
+  slug: righthand-robotics
+  matched_by: domain
 - name: Rivet Health
   url: https://rivethealth.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rivet-health
+  slug: rivet-health
+  matched_by: domain
 - name: Roku
   url: https://www.roku.com
   status: ipo
@@ -1225,23 +1327,25 @@ companies:
   url: https://runsybil.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: runsybil
+  slug: runsybil
+  matched_by: domain
 - name: Runwise
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: runwise
+  slug: runwise
+  matched_by: name-slug
 - name: Sana Labs
   url: https://sanalabs.com
   status: active
   source: https://menlovc.com/portfolio/
-  slug: sana-labs
+  slug: sana
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
 - name: Scout Rfp
   status: acquired
   source: https://menlovc.com/portfolio/
@@ -1252,9 +1356,10 @@ companies:
 - name: Scribe Therapeutics
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scribe-therapeutics
+  slug: scribe-therapeutics
+  matched_by: name-slug
 - name: Semgrep
   url: https://semgrep.dev
   status: active
@@ -1267,23 +1372,26 @@ companies:
   url: https://sentibio.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: senti-biosciences
+  slug: senti-biosciences
+  matched_by: domain
 - name: Shopmy
   url: https://shopmy.us
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: shopmy
+  in_network: true
+  is_api_provider: true
+  slug: shopmy
+  matched_by: domain
 - name: Sidecar Health
   url: https://sidecarhealth.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sidecar-health
+  slug: sidecarhealth
+  matched_by: domain
 - name: Signifyd
   url: https://signifyd.com
   status: active
@@ -1296,22 +1404,25 @@ companies:
   url: https://linkedin
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: singularity
+  slug: singularity
+  matched_by: name-slug
 - name: Siri
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: siri
+  slug: siri
+  matched_by: name-slug
 - name: Siteline
   url: https://siteline.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: siteline
+  slug: siteline
+  matched_by: domain
 - name: Skild Ai
   url: https://skild.ai
   status: active
@@ -1324,9 +1435,10 @@ companies:
   url: https://slash.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: slash
+  in_network: true
+  is_api_provider: true
+  slug: slash
+  matched_by: domain
 - name: Sleuth
   url: https://sleuth.io
   status: active
@@ -1339,30 +1451,34 @@ companies:
   url: https://talktoash.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: slingshot-ai
+  slug: slingshot-ai
+  matched_by: domain
 - name: Solace
   url: https://solace.health
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: solace
+  slug: solace
+  matched_by: domain
 - name: Sonrai Security
   url: https://sonraisecurity.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sonrai-security
+  slug: sonrai-security
+  matched_by: domain
 - name: Squint
   url: https://squint.ai
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: squint
+  slug: squint
+  matched_by: domain
 - name: Stackrox
   status: acquired
   source: https://menlovc.com/portfolio/
@@ -1374,9 +1490,10 @@ companies:
   url: https://strata.io
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: strata-identity
+  slug: strata-identity
+  matched_by: domain
 - name: Suno
   url: https://suno.com
   status: active
@@ -1396,16 +1513,18 @@ companies:
 - name: Tcell Io
   status: acquired
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tcell-io
+  slug: tcell-io
+  matched_by: name-slug
 - name: Telenav
   url: https://telenav.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: telenav
+  slug: telenav
+  matched_by: domain
 - name: Tenor
   url: https://tenor.co
   status: active
@@ -1417,16 +1536,18 @@ companies:
 - name: The Black Tux
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-black-tux
+  slug: the-black-tux
+  matched_by: name-slug
 - name: True Anomaly
   url: https://trueanomaly.space
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: true-anomaly
+  slug: true-anomaly
+  matched_by: domain
 - name: Truera
   url: https://truera.com
   status: active
@@ -1447,16 +1568,18 @@ companies:
   url: https://turing.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: turing
+  slug: turing
+  matched_by: name-slug
 - name: Typeface
   url: https://typeface.ai
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: typeface
+  in_network: true
+  is_api_provider: true
+  slug: typeface
+  matched_by: domain
 - name: Uber
   url: https://www.uber.com
   status: ipo
@@ -1469,9 +1592,10 @@ companies:
   url: https://unraveldata.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unravel
+  slug: unravel-data-systems
+  matched_by: domain
 - name: Unstructured
   url: https://unstructured.io
   status: active
@@ -1484,85 +1608,97 @@ companies:
   url: https://usermind.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: usermind
+  slug: usermind
+  matched_by: domain
 - name: Vareto
   url: https://vareto.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vareto
+  slug: vareto
+  matched_by: domain
 - name: Vilya
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vilya
+  slug: vilya
+  matched_by: name-slug
 - name: Vivun
   url: https://vivun.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vivun
+  slug: vivun
+  matched_by: domain
 - name: Warby Parker
   url: https://warbyparker.com
   status: ipo
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: warby-parker
+  slug: warby-parker
+  matched_by: domain
 - name: Westmag
   url: https://westmag.co
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: westmag
+  slug: westmag
+  matched_by: name-slug
 - name: Whisper Aero
   url: https://whisper.aero
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: whisper-aero
+  slug: whisper-aero
+  matched_by: domain
 - name: Wispr Flow
   url: https://wisprflow.ai
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: wispr-flow
+  in_network: true
+  is_api_provider: true
+  slug: wispr-ai
+  matched_by: domain
 - name: Xaira Therapeutics
   url: https://xaira.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xaira-therapeutics
+  slug: xaira
+  matched_by: domain
 - name: Yellowbrick Data
   url: https://yellowbrick.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yellowbrick-data
+  slug: yellowbrick-data
+  matched_by: name-slug
 - name: Yuzu Health
   url: https://yuzu.health
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: yuzu-health
+  in_network: true
+  is_api_provider: true
+  slug: yuzu-health
+  matched_by: domain
 - name: Zafran Security
   url: https://zafran.io
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zafran-security
+  slug: zafran-security
+  matched_by: domain
 - name: Zylo
   url: https://zylo.com
   status: active
