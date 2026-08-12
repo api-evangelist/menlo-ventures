@@ -155,7 +155,7 @@ companies:
   url: https://alloy.ai
   status: active
   source: https://menlovc.com/portfolio/
-  slug: alloy
+  slug: alloy-com
   in_network: true
   is_api_provider: true
   matched_by: name-slug
@@ -741,7 +741,7 @@ companies:
   url: https://graphite.dev
   status: active
   source: https://menlovc.com/portfolio/
-  slug: graphite-dev
+  slug: graphite-com
   in_network: true
   is_api_provider: true
   matched_by: domain
