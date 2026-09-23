@@ -1,0 +1,31 @@
+# Front Door AI Index — menlo-ventures — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: menlo-ventures
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: menlovc.com
+  final_host: menlovc.com
+  ownership: own
+  owner: menlo-ventures
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 43
+  host_score: 43
+  density: 30.6
+  words: 1405
+  tiers:
+    agentic: 0
+    core: 42
+    model: 1
+  ambiguous: 15
+  top_terms:
+    AI: 30
+    intelligence: 10
+    artificial intelligence: 7
+    automation: 5
+    foundation model: 3
+    generative ai: 2
+    Anthropic: 1
