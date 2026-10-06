@@ -64,10 +64,12 @@ tags_raw:
   - SaaS
   - North America
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis: []
 common:
+  - url: https://menlovc.com/feed/
+    type: BlogRSS
   - type: Website
     url: https://menlovc.com/
   - type: Portfolio
