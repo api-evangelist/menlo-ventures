@@ -1665,7 +1665,7 @@ companies:
   source: https://menlovc.com/portfolio/
   in_network: true
   is_api_provider: true
-  slug: wispr-ai
+  slug: wisprflow-ai
   matched_by: domain
 - name: Xaira Therapeutics
   url: https://xaira.com
