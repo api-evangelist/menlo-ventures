@@ -93,8 +93,8 @@ companies:
   source: https://menlovc.com/portfolio/
   in_network: false
   is_api_provider: false
-  x-name-collision: abacus
   suggested_slug: getabacus-com
+  x-name-collision: abacus
 - name: Accordance Ai
   url: https://accordance.com
   status: active
@@ -204,8 +204,8 @@ companies:
   source: https://menlovc.com/portfolio/
   in_network: false
   is_api_provider: false
-  x-name-collision: arc
   suggested_slug: arcboats-com
+  x-name-collision: arc
 - name: Arch
   url: https://archlabs.com
   status: active
@@ -252,7 +252,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: aurascape
-  matched_by: name-slug
+  matched_by: domain
+  url: https://aurascape.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Aurora Therapeutics
   url: https://auroratherapeutics.com
   status: active
@@ -275,8 +277,8 @@ companies:
   source: https://menlovc.com/portfolio/
   in_network: false
   is_api_provider: false
-  x-name-collision: axiom
   suggested_slug: axiommath-ai
+  x-name-collision: axiom
 - name: Betterment
   url: https://betterment.com
   status: ipo
@@ -331,7 +333,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: brellium
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.brellium.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Canvas
   url: https://canvas.build
   status: active
@@ -346,8 +350,8 @@ companies:
   source: https://menlovc.com/portfolio/
   in_network: false
   is_api_provider: false
-  x-name-collision: cartwheel
   suggested_slug: cartwheelcare-org
+  x-name-collision: cartwheel
 - name: Cavium
   status: active
   source: https://menlovc.com/portfolio/
@@ -521,6 +525,7 @@ companies:
   is_api_provider: false
   slug: dropcam
   matched_by: name-slug
+  x-url-candidate: https://dropcam.io
 - name: Earli
   url: https://earli.com
   status: active
@@ -559,8 +564,8 @@ companies:
   source: https://menlovc.com/portfolio/
   in_network: false
   is_api_provider: false
-  x-name-collision: enable
   suggested_slug: enable-com
+  x-name-collision: enable
 - name: Encoded Therapeutics
   url: https://encoded.com
   status: active
@@ -852,7 +857,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: jump
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.jump.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Kinetic
   url: https://kinetic.auto
   status: active
@@ -1170,7 +1177,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: periscope
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.pscp.tv/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Photomath
   url: https://photomath.com
   status: active
@@ -1193,7 +1202,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: pliant-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://pliantrx.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Pluribus Networks
   url: https://pluribusnetworks.com
   status: active
@@ -1208,8 +1219,8 @@ companies:
   source: https://menlovc.com/portfolio/
   in_network: false
   is_api_provider: false
-  x-name-collision: polly
   suggested_slug: polly-io
+  x-name-collision: polly
 - name: Poshmark
   url: https://poshmark.com
   status: ipo
@@ -1335,7 +1346,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: runwise
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.runwise.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Sana Labs
   url: https://sanalabs.com
   status: active
@@ -1356,7 +1369,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: scribe-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.scribetx.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Semgrep
   url: https://semgrep.dev
   status: active
@@ -1412,6 +1427,7 @@ companies:
   is_api_provider: false
   slug: siri
   matched_by: name-slug
+  x-url-candidate: https://www.apple.com/apple-intelligence/
 - name: Siteline
   url: https://siteline.com
   status: active
@@ -1482,7 +1498,9 @@ companies:
   slug: stackrox
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.stackrox.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Strata Identity
   url: https://strata.io
   status: active
@@ -1536,7 +1554,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: the-black-tux
-  matched_by: name-slug
+  matched_by: domain
+  url: https://theblacktux.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: True Anomaly
   url: https://trueanomaly.space
   status: active
@@ -1567,8 +1587,8 @@ companies:
   source: https://menlovc.com/portfolio/
   in_network: false
   is_api_provider: false
-  x-name-collision: turing
   suggested_slug: turing-com
+  x-name-collision: turing
 - name: Typeface
   url: https://typeface.ai
   status: active
@@ -1623,7 +1643,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: vilya
-  matched_by: name-slug
+  matched_by: domain
+  url: https://vilya.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Vivun
   url: https://vivun.com
   status: active
@@ -1678,8 +1700,8 @@ companies:
   source: https://menlovc.com/portfolio/
   in_network: false
   is_api_provider: false
-  x-name-collision: yellowbrick-data
   suggested_slug: yellowbrick-com
+  x-name-collision: yellowbrick-data
 - name: Yuzu Health
   url: https://yuzu.health
   status: active
