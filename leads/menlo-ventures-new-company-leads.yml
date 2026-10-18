@@ -1,4 +1,81 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: menlo-ventures
-leads: []
+leads:
+- name: Abacus
+  url: https://getabacus.com
+  suggested_slug: getabacus-com
+  sector: ''
+  source_vc: menlo-ventures
+  source: https://menlovc.com/portfolio/
+  stub_created: false
+- name: Alloy
+  url: https://alloy.ai
+  suggested_slug: alloy
+  sector: ''
+  source_vc: menlo-ventures
+  source: https://menlovc.com/portfolio/
+  stub_created: false
+- name: Arc
+  url: https://arcboats.com
+  suggested_slug: arcboats-com
+  sector: ''
+  source_vc: menlo-ventures
+  source: https://menlovc.com/portfolio/
+  stub_created: false
+- name: Axiom
+  url: https://axiommath.ai
+  suggested_slug: axiommath-ai
+  sector: ''
+  source_vc: menlo-ventures
+  source: https://menlovc.com/portfolio/
+  stub_created: false
+- name: Cartwheel
+  url: https://cartwheelcare.org
+  suggested_slug: cartwheelcare-org
+  sector: ''
+  source_vc: menlo-ventures
+  source: https://menlovc.com/portfolio/
+  stub_created: false
+- name: Enable
+  url: https://enable.com
+  suggested_slug: enable-com
+  sector: ''
+  source_vc: menlo-ventures
+  source: https://menlovc.com/portfolio/
+  stub_created: false
+- name: Monarch
+  url: https://monarchmoney.com
+  suggested_slug: monarch
+  sector: ''
+  source_vc: menlo-ventures
+  source: https://menlovc.com/portfolio/
+  stub_created: false
+- name: Polly
+  url: https://polly.io
+  suggested_slug: polly-io
+  sector: ''
+  source_vc: menlo-ventures
+  source: https://menlovc.com/portfolio/
+  stub_created: false
+- name: Scout Rfp
+  url: ''
+  suggested_slug: scout-rfp
+  sector: ''
+  source_vc: menlo-ventures
+  source: https://menlovc.com/portfolio/
+  stub_created: false
+- name: Turing
+  url: https://turing.com
+  suggested_slug: turing-com
+  sector: ''
+  source_vc: menlo-ventures
+  source: https://menlovc.com/portfolio/
+  stub_created: false
+- name: Yellowbrick Data
+  url: https://yellowbrick.com
+  suggested_slug: yellowbrick-com
+  sector: ''
+  source_vc: menlo-ventures
+  source: https://menlovc.com/portfolio/
+  stub_created: false

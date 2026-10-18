@@ -3,9 +3,9 @@ method: searched
 source: https://menlovc.com/portfolio/
 summary:
   portfolio_total: 215
-  in_network: 215
-  api_providers: 60
-  missing: 0
+  in_network: 204
+  api_providers: 61
+  missing: 11
   stubs_created: 0
 companies:
 - name: Chime
@@ -44,9 +44,9 @@ companies:
   url: https://abnormal.ai
   status: active
   source: https://menlovc.com/portfolio/
-  slug: abnormal-security
+  slug: abnormal
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Carta
   url: https://carta.com
@@ -91,17 +91,17 @@ companies:
   url: https://getabacus.com
   status: active
   source: https://menlovc.com/portfolio/
-  slug: abacus
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: abacus
+  suggested_slug: getabacus-com
 - name: Accordance Ai
   url: https://accordance.com
   status: active
   source: https://menlovc.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: accordance
+  slug: accordance-ai
   matched_by: domain
 - name: Aeroscout
   url: https://aeroscout.com
@@ -155,10 +155,9 @@ companies:
   url: https://alloy.ai
   status: active
   source: https://menlovc.com/portfolio/
-  slug: alloy-com
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: alloy
 - name: Alta
   url: https://altadaily.com
   status: active
@@ -196,17 +195,17 @@ companies:
   status: active
   source: https://menlovc.com/portfolio/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: appdome
   matched_by: domain
 - name: Arc
   url: https://arcboats.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: arc
-  matched_by: name-slug
+  x-name-collision: arc
+  suggested_slug: arcboats-com
 - name: Arch
   url: https://archlabs.com
   status: active
@@ -237,7 +236,7 @@ companies:
   source: https://menlovc.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: assorthealth
+  slug: assort-health
   matched_by: domain
 - name: Astrix
   url: https://astrix.security
@@ -245,7 +244,7 @@ companies:
   source: https://menlovc.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: astrix
+  slug: astrix-security
   matched_by: domain
 - name: Aurascape
   status: active
@@ -274,10 +273,10 @@ companies:
   url: https://axiommath.ai
   status: active
   source: https://menlovc.com/portfolio/
-  slug: axiom
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: axiom
+  suggested_slug: axiommath-ai
 - name: Betterment
   url: https://betterment.com
   status: ipo
@@ -345,10 +344,10 @@ companies:
   url: https://cartwheelcare.org
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: cartwheel
-  matched_by: name-slug
+  x-name-collision: cartwheel
+  suggested_slug: cartwheelcare-org
 - name: Cavium
   status: active
   source: https://menlovc.com/portfolio/
@@ -394,7 +393,7 @@ companies:
   source: https://menlovc.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: clearlabs
+  slug: clear-labs
   matched_by: domain
 - name: Clearvector
   url: https://clearvector.com
@@ -408,7 +407,7 @@ companies:
   url: https://clerk.com
   status: active
   source: https://menlovc.com/portfolio/
-  slug: clerk
+  slug: clerk-com
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -558,10 +557,10 @@ companies:
   url: https://enable.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: enable
-  matched_by: name-slug
+  x-name-collision: enable
+  suggested_slug: enable-com
 - name: Encoded Therapeutics
   url: https://encoded.com
   status: active
@@ -709,7 +708,7 @@ companies:
   url: https://gilead.com
   status: active
   source: https://menlovc.com/portfolio/
-  slug: forty-seven-2
+  slug: forty-seven
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -757,7 +756,7 @@ companies:
   url: https://h1.co
   status: active
   source: https://menlovc.com/portfolio/
-  slug: ribbon-health
+  slug: h1
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -813,7 +812,7 @@ companies:
   status: active
   source: https://menlovc.com/portfolio/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: hover
   matched_by: domain
 - name: Immersive Labs
@@ -970,18 +969,17 @@ companies:
   url: https://modal.com
   status: active
   source: https://menlovc.com/portfolio/
-  slug: modal
+  slug: modal-labs
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Monarch
   url: https://monarchmoney.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: monarch
-  matched_by: name-slug
+  suggested_slug: monarch
 - name: Nationgraph
   url: https://nationgraph.com
   status: active
@@ -1067,8 +1065,8 @@ companies:
   status: active
   source: https://menlovc.com/portfolio/
   in_network: true
-  is_api_provider: false
-  slug: observe-ai
+  is_api_provider: true
+  slug: observeai
   matched_by: domain
 - name: Obsidian Security
   url: https://obsidiansecurity.com
@@ -1124,7 +1122,7 @@ companies:
   source: https://menlovc.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: ophelia
+  slug: ophelia-health
   matched_by: domain
 - name: Opna Bio
   url: https://opnabio.com
@@ -1208,10 +1206,10 @@ companies:
   url: https://polly.io
   status: active
   source: https://menlovc.com/portfolio/
-  slug: polly
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: polly
+  suggested_slug: polly-io
 - name: Poshmark
   url: https://poshmark.com
   status: ipo
@@ -1264,7 +1262,7 @@ companies:
   url: https://recursion.com
   status: ipo
   source: https://menlovc.com/portfolio/
-  slug: recursion
+  slug: exscientia
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -1349,10 +1347,9 @@ companies:
 - name: Scout Rfp
   status: acquired
   source: https://menlovc.com/portfolio/
-  slug: scout-rfp
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: scout-rfp
 - name: Scribe Therapeutics
   status: active
   source: https://menlovc.com/portfolio/
@@ -1390,7 +1387,7 @@ companies:
   source: https://menlovc.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: sidecarhealth
+  slug: sidecar-health
   matched_by: domain
 - name: Signifyd
   url: https://signifyd.com
@@ -1568,10 +1565,10 @@ companies:
   url: https://turing.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: turing
-  matched_by: name-slug
+  x-name-collision: turing
+  suggested_slug: turing-com
 - name: Typeface
   url: https://typeface.ai
   status: active
@@ -1665,7 +1662,7 @@ companies:
   source: https://menlovc.com/portfolio/
   in_network: true
   is_api_provider: true
-  slug: wisprflow-ai
+  slug: wispr-ai
   matched_by: domain
 - name: Xaira Therapeutics
   url: https://xaira.com
@@ -1679,10 +1676,10 @@ companies:
   url: https://yellowbrick.com
   status: active
   source: https://menlovc.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: yellowbrick-data
-  matched_by: name-slug
+  x-name-collision: yellowbrick-data
+  suggested_slug: yellowbrick-com
 - name: Yuzu Health
   url: https://yuzu.health
   status: active
